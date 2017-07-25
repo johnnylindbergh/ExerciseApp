@@ -49,6 +49,7 @@
 		870F67641F1A8B310058A7D5 /* Exercise App SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exercise App SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		870F67681F1A8B310058A7D5 /* Exercise_App_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise_App_SwiftUITests.swift; sourceTree = "<group>"; };
 		870F676A1F1A8B310058A7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87164A731F26EDEF004233AA /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				870F67481F1A8B310058A7D5 /* MasterViewController.swift */,
 				870F674A1F1A8B310058A7D5 /* DetailViewController.swift */,
 				870F674C1F1A8B310058A7D5 /* Main.storyboard */,
+				87164A731F26EDEF004233AA /* Location.gpx */,
 				870F674F1F1A8B310058A7D5 /* Assets.xcassets */,
 				870F67511F1A8B310058A7D5 /* LaunchScreen.storyboard */,
 				870F67541F1A8B310058A7D5 /* Info.plist */,
@@ -424,9 +426,10 @@
 				DEVELOPMENT_TEAM = WHAZYCB33S;
 				INFOPLIST_FILE = "Exercise App Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jlindbergh.Exercise-App-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlindbergh.Exercise-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -437,9 +440,10 @@
 				DEVELOPMENT_TEAM = WHAZYCB33S;
 				INFOPLIST_FILE = "Exercise App Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jlindbergh.Exercise-App-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlindbergh.Exercise-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -520,6 +524,7 @@
 				870F676F1F1A8B310058A7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		870F67701F1A8B310058A7D5 /* Build configuration list for PBXNativeTarget "Exercise App SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				870F67721F1A8B310058A7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		870F67731F1A8B310058A7D5 /* Build configuration list for PBXNativeTarget "Exercise App SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				870F67751F1A8B310058A7D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
