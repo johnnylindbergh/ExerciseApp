@@ -8,7 +8,7 @@
      -->
     <wpt lat="-64.241984" lon="-56.626187">
         <name>none</name>
-        
+    
         <!--
          Optionally provide a time element for each waypoint. Xcode will interpolate movement
          at a rate of speed based on the time elapsed between each waypoint. If you do not provide
